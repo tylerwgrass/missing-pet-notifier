@@ -106,6 +106,7 @@ public class PetHandler
 			.put("Lil' destructor", "Lil' creator")
 			.put("Fox", "Beaver")
 			.put("Pheasant", "Beaver")
+			.put("Ric", "Bran")
 			.build();
 
 		npcVariantsToBase = ImmutableMap.<String, String>builder()
@@ -145,6 +146,7 @@ public class PetHandler
 			.put("Lil' Destructor", "Lil' Creator")
 			.put("Fox", "Beaver")
 			.put("Pheasant", "Beaver")
+			.put("Ric", "Bran")
 			.build();
 
 		baseItems = itemToNpcMap.keySet();
