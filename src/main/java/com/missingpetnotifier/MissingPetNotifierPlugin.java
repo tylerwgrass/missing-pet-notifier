@@ -48,7 +48,7 @@ public class MissingPetNotifierPlugin extends Plugin
 	@Subscribe
 	public void onGameTick(GameTick event)
 	{
-		if (client.getVarbitValue(VarPlayerID.FOLLOWER_NPC) != -1  && client.getFollower() == null)
+		if (client.getVarpValue(VarPlayerID.FOLLOWER_NPC) != -1  && client.getFollower() == null)
 		{
 			if (numMissingTicks >= config.timeMissingDelay())
 			{
